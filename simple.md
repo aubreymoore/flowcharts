@@ -1,3 +1,4 @@
+```mermaid
 graph TD
   start((start)) --> lock_booking
   lock_booking --> process_payment
@@ -8,3 +9,5 @@ graph TD
   finish(((finish)))
   send_email --> finish
   release_booking --> finish
+```
+
